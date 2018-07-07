@@ -23,6 +23,7 @@ test:
 production:
   <<: *default
   adapter: postgresql
-  encording: unicode
-  pool:5
+  encoding: unicode
+  pool: 5
+
   
